@@ -183,10 +183,10 @@ export const siteConfig: SiteConfig = {
     favicon: [
     ],
     // bangumi 配置
-    bangumi: {
-        // 用户 ID
-        userId: "your-bangumi-id", // 可以设置为 "sai" 测试
-    },
+    // bangumi: {
+    //     // 用户 ID
+    //     userId: "your-bangumi-id", // 可以设置为 "sai" 测试
+    // },
 };
 
 /**
@@ -221,8 +221,8 @@ export const navBarConfig: NavBarConfig = {
                 LinkPreset.Skills,
                 LinkPreset.Timeline,
                 LinkPreset.Diary,
-                LinkPreset.Albums,
-                LinkPreset.Anime,
+                // LinkPreset.Albums,  // 临时禁用相册
+                // LinkPreset.Anime,   // 临时禁用追番
             ],
         },
         {
@@ -508,7 +508,7 @@ export const particleConfig: ParticleConfig = {
 // 音乐播放器配置
 export const musicPlayerConfig: MusicPlayerConfig = {
     // 启用音乐播放器功能
-    enable: true,
+    enable: false,
 };
 
 
